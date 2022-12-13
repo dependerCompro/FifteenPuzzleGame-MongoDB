@@ -1,0 +1,197 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.wrapper{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.move-n-time__cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.moves{
+    padding: 0.5rem;
+}
+
+.time{
+    padding: 0.5rem;
+}
+
+.move-n-time__buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.move-n-time__buttons button{
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+.header__title{
+    padding: 0.5rem;
+    font-size: larger;
+}
+
+.puzzle-board{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.board{
+    border: 0.30rem solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.cell{
+    width: 5rem;
+    height: 5rem;
+    border: 0.1rem solid black;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.empty-cell{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.25rem;
+    border: 0.1rem solid white;
+}
+
+.onload-popup{
+    position: absolute;
+    background: #dbd7d2;
+    border-radius: 0.38rem;
+    padding: 2rem;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    z-index: 3;
+}
+
+.onload-popup
+button{
+    margin: 0.5rem 0.2rem;
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+.gameover-popup{
+    position: absolute;
+    background: #dbd7d2;
+    border-radius: 0.38rem;
+    padding: 2rem;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    z-index: 3;
+}
+
+.onload-popup
+button{
+    margin: 0.5rem 0.2rem;
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+#scoreboard-button{
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+.scoreboard-card{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: #e4e3e2;
+    height: 20rem;
+    border-radius: 0.38rem;
+    font-size: larger;
+    visibility: visible;
+    width: 90%;
+    padding: 1rem;
+    max-width: 700px;
+}
+
+.scoreboard-card__wrapper{
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#scoreboard-card__close_button{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+#scoreboard-card__close_button button{
+    border-radius: 30%;
+    cursor: pointer;
+    outline: none;
+    border:none;
+}
+
+.scoreboard-table{
+    min-width: 550px;
+}
+
+.timestamp-cell-th {
+    width: 18rem;
+}
+
+.moves-cell-th {
+    width: 8rem;
+}
+
+.time-cell-th {
+    width: 16rem;
+}
+
+.timestamp-cell {
+    width: 17.2rem;
+}
+
+.moves-cell {
+    width: 10.4rem;
+}
+
+.time-cell {
+    width: 13rem;
+}
